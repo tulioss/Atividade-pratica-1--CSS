@@ -1,0 +1,121 @@
+* {
+    font-family: "Oswald", sans-serif;
+    color: white
+}
+
+body {
+    background-color: rgb(20, 6, 102);
+position: absolute;
+left: 25vw;
+}
+
+h1 {
+    color: orange;
+    font-size: 55px;
+}
+
+h2 {
+    color: rgba(235, 11, 11, 0.815);
+    font-size: 30px;
+}
+
+h3 {
+    color: orange;
+    font-size: 20px;
+}
+
+h4 {
+    color: orange;
+    font-size: 20px;
+}
+
+h5 {
+    color: orange;
+    font-size: 20px;
+}
+
+pre {
+    position: relative;
+    left: 8vw;
+    font-size: 25px;
+}
+
+strong {
+    color: green;
+    font-size: 18px;
+}
+
+table {
+    border: 2px dotted orangered;
+    border-collapse: collapse;
+    width: 30vw;
+}
+
+th {
+    border-bottom: 3px solid orangered;
+    background-color: blue;
+}
+
+tr, td {
+    border: 1px solid black;
+}
+
+dl {
+    border: 2px solid red;
+    width: 30vw;
+}
+
+ul {
+    list-style-type: square;
+}
+
+iframe {
+    height: 30vh;
+    width: 30vw;
+    border-radius: 25px;
+}
+
+button {
+    color: orangered;
+    border-radius: 15px;
+    position: absolute;
+    left: 17vw;
+}
+
+button:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#link_hover:hover {
+    color: blue;
+}
+
+#imformações {
+    position: absolute;
+    top: 19vh;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.musica {
+    font-size: 20px;
+    position: absolute;
+    left: 40vw;
+    top: 70px;
+}
+
+.marcado {
+    background-color: rgb(5, 198, 247);
+}
+
+.link {
+    color: rgb(11, 175, 11);
+    text-decoration: none;
+}
+
+.cores td:nth-child(odd) {
+    background-color: rgba(235, 11, 11, 0.815);
+}
